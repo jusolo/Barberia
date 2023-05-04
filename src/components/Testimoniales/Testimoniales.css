@@ -1,0 +1,6 @@
+.img-profile {
+  background-image: url("../../images/person.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

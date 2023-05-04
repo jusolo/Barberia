@@ -3,6 +3,7 @@ import { Navbar } from "../Navbar/Navbar";
 import { Header } from "../Header/Header";
 import { Services } from "../Services/Services";
 import { About } from "../About/About";
+import { Testimoniales } from "../Testimoniales/Testimoniales";
 
 function AppUI() {
   return (
@@ -11,6 +12,7 @@ function AppUI() {
       <Header />
       <Services />
       <About />
+      <Testimoniales />
     </React.Fragment>
   );
 }
