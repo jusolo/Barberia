@@ -1,0 +1,10 @@
+.img-contact {
+  background-image: url("../../images/contact.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#date::-webkit-calendar-picker-indicator, #hour::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}

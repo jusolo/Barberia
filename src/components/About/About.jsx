@@ -4,7 +4,7 @@ import "./About.css";
 function About() {
   return (
     <div className="h-screen pt-20 flex gap-10 w-full px-40" id="about">
-      <div className="image-content w-1/2"></div>
+      <div className="img-about w-1/2"></div>
       <div className="w-1/2">
         <div className="float-right">
           <h2 className="uppercase text-white text-4xl font-bold w-80 underline underline-offset-8 decoration-orange-600 mb-3">

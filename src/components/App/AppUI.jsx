@@ -4,6 +4,7 @@ import { Header } from "../Header/Header";
 import { Services } from "../Services/Services";
 import { About } from "../About/About";
 import { Testimoniales } from "../Testimoniales/Testimoniales";
+import { Contact } from "../Contact/Contact";
 
 function AppUI() {
   return (
@@ -13,6 +14,7 @@ function AppUI() {
       <Services />
       <About />
       <Testimoniales />
+      <Contact />
     </React.Fragment>
   );
 }
