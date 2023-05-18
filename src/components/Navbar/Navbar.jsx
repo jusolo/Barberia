@@ -9,7 +9,8 @@ function Navbar() {
         <li><a href="#services" className="text-gray-200 uppercase hover:text-white hover:underline hover:underline-offset-8 hover:decoration-orange-600">Services</a></li>
         <li><a href="#about" className="text-gray-200 uppercase hover:text-white hover:underline hover:underline-offset-8 hover:decoration-orange-600">Barber</a></li>
         <li><a href="#contact" className="text-gray-200 uppercase hover:text-white hover:underline hover:underline-offset-8 hover:decoration-orange-600">Contact Us</a></li>
-        <li><a href="#location" className="text-gray-200 uppercase hover:text-white hover:underline hover:underline-offset-8 hover:decoration-orange-600">Location</a></li>
+        <li><a href="#shop" className="text-gray-200 uppercase hover:text-white hover:underline hover:underline-offset-8 hover:decoration-orange-600">Shop</a></li>
+        <li><a href="/login" className="text-gray-200 uppercase hover:text-white hover:underline hover:underline-offset-8 hover:decoration-orange-600">Login</a></li>
       </ul>
     </div>
   );
