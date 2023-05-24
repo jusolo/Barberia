@@ -19,11 +19,12 @@ function Login() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    // Aquí puedes agregar la lógica para verificar las credenciales con una API o localmente
-    // Por simplicidad, simplemente verificaré que el email y la contraseña no estén vacíos
-    if (email !== "" && password !== "") {
-      navigate("/dashboard");
+    if (email === "admin@gmail.com" && password === "password") {
+      sessionStorage.setItem("loggedIn", "true");
+      sessionStorage.setItem("email", email);
+      navigate("/");
+    } else {
+      alert("Credenciales invalidas. Intentalo de nuevo!");
     }
   };
   return (
